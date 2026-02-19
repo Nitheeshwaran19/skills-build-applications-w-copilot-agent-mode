@@ -1,0 +1,70 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #4f46e5 !important;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active {
+  color: #fbbf24 !important;
+}
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.table th {
+  background-color: #6366f1;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.btn-info {
+  background-color: #6366f1;
+  border-color: #6366f1;
+}
+.btn-info:hover {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.1);
+}
+.card-header.bg-primary {
+  background-color: #6366f1 !important;
+}
+.card-header.bg-success {
+  background-color: #22c55e !important;
+}
+.card-header.bg-warning {
+  background-color: #fbbf24 !important;
+}
+.card-header.bg-info {
+  background-color: #0ea5e9 !important;
+}
+.card-header.bg-danger {
+  background-color: #ef4444 !important;
+}
+.App-logo {
+  height: 40px;
+  margin-right: 16px;
+}
+.App-header {
+  background-color: #6366f1;
+  color: #fff;
+  padding: 24px;
+}
+.App-link {
+  color: #fbbf24;
+}
